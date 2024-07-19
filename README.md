@@ -33,12 +33,16 @@ You can also check out [DrawDb](https://drawdb.vercel.app)
 
 ## Part 1: Identify and Create Entities and Attributes
 
+
+
 Now that Emperor Palpatine has put you in command of the war against the rebels, you must organize it. To do this, first create the structure of your database in [DrawDb](https://drawdb.vercel.app) where you can save all the relevant data of the war, such as strategies, units at your service, weapons, etc.
 
 ### RebelArmy
 - **rebel_id** -- Primary key, unique identifier for each rebel
 - **name** -- Name of the rebel
 - **type** -- Type of rebel (Military, Jedi, Robot)
+
+<img src="https://github.com/user-attachments/assets/5f994288-4e13-4a82-a114-a937cf5e2629" width="500" height="1200" align="right">
 
 ### ImperialArmy
 - **imperial_id** -- Primary key, unique identifier for each imperial member
@@ -89,34 +93,33 @@ Now that Emperor Palpatine has put you in command of the war against the rebels,
 
 Analyze and establish the relationships between entities to identify one-to-many (1:N) and many-to-many (M:N) relationships.
 
-Don't forget to `create` join tables in the many-to-many relationships!
+Don't forget to `create` join tables in the many-to-many relationships and put the update and delete cascade in each case where necessary!!
 
 - A Rebel Team can be assigned to many Bases.
 - An Imperial Team can participate in many Attacks.
-- A Base can have many pieces of Intel.
 - A Base can have one Locations.
-- An Imperial Team can have many Weapons.
 - A Base can be the target of many Attacks.
-
-### Many-to-Many Relationships (M:N)
 - A Rebel can be in many Rebel Teams, and a Rebel Team can have many Rebels.
+- An Imperial Team can have many Weapons.
+- A Base can have many pieces of Intel.
 - An Imperial can be in many Imperial Teams, and an Imperial Team can have many Imperials.
 
 
-### Part 3: Create the Database in Mysql
+## Part 3: Create the Database in Mysql
 
-Create a database named Final_Attack and import the tables created in [DrawDb](https://drawdb.vercel.app)
+It's time! Create a database named Final_Attack and import the tables created in [DrawDb](https://drawdb.vercel.app)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/a2c97f35-7c8c-4e6e-83fd-aaafd5351e48" width="800" height="400" >
+</p>
 
-### Part 3
+## Part 4 : Import data
 
 Import data uploaded to the lab named `Imperial_Data` provided directly by the Imperial Intelligence Team.
 
-### Queries 
+## Part 5 : Queries 
 
 
 
-
-### Bonus
 
 
 ## Submission
