@@ -11,21 +11,12 @@ After demonstrating your skills with the Death Star database, under the supervis
   <img src="https://github.com/user-attachments/assets/dfcac290-6a10-46d9-a61d-ddaf3bef86c5" alt="Descripción de la imagen" width="800">
 </p>
 
-
 ## Requirements
 
 - [Learn how to fork this repo](https://guides.github.com/activities/forking/)
 - Clone this repo into your `code/labs` folder
 - Have MySQL installed
-- Have Table Plus installed
-
-## Deliverables
-
-The goal of this lab is to design a Database that fulfills the needs of an application that manages the Flight Transportation industry.
-
-Your goal is to define a Schema that adheres to the requierements of the application, implement it in Mermaid.
-
-When you are done, please upload the ER diagram png and a screenshot of the required queries:
+- Have Worbench installed
 
 1. Schema diagram
     - ER diagram including atributes and data types
@@ -36,62 +27,97 @@ When you are done, please upload the ER diagram png and a screenshot of the requ
 ## Tools
 
 **DBDiagram**
-You can also check out [DBdiagram](https://dbdiagram.io/d) 
+You can also check out [DrawDb](https://drawdb.vercel.app) 
 
 ## Instructions
 
-### Part 1
+## Part 1: Identify and Create Entities and Attributes
 
-You client wants your database to be able to manage the following information:
+Now that Emperor Palpatine has put you in command of the war against the rebels, you must organize it. To do this, first create the structure of your database in [DrawDb](https://drawdb.vercel.app) where you can save all the relevant data of the war, such as strategies, units at your service, weapons, etc.
 
-  - Airport
-    - name -- Name of the airport
-    - country -- Country where the airport is located
-    - dateOpened -- Year when the airport was opened
-  - Terminal
-    - name -- Name of the Terminal
-    - capacity -- Passenger Capacity of the Terminal
-    - airport -- Airport owner of the Terminal
-  - Flight
-    - flightCode -- Code for the flight
-    - fromAirport -- Airport of origin
-    - toAirport -- Destination Airport
-    - airline -- Airline that operates the flight
-    - onRoute -- Is the plane flying to destination?
-  - Passenger
-    - firstName -- First name of the passenger
-    - lastName  -- Last name of the passenger
-    - dateOfBirth -- Date of birth of the passenger
-  - Airline
-    - name -- Name of Airline
-    - country -- country of Origin
+### RebelArmy
+- **rebel_id** -- Primary key, unique identifier for each rebel
+- **name** -- Name of the rebel
+- **type** -- Type of rebel (Military, Jedi, Robot)
 
-### Part 2
+### ImperialArmy
+- **imperial_id** -- Primary key, unique identifier for each imperial member
+- **name** -- Name of the imperial member
+- **type** -- Type of imperial member (Military, Sith, Robot)
 
-Import the [Sakila database](https://dev.mysql.com/doc/index-other.html) following the pdf guide and create make the following queries:
+### RebelTeams
+- **team_id** -- Primary key, unique identifier for each rebel team
+- **name** -- Name of the rebel team
+- **soldier_count** -- Number of soldiers in the team
+- **jedi_count** -- Number of Jedis in the team
+- **total_force** -- Total force of the team
 
-### Queries
+### ImperialTeams
+- **team_id** -- Primary key, unique identifier for each imperial team
+- **name** -- Name of the imperial team
+- **soldier_count** -- Number of soldiers in the team
+- **sith_count** -- Number of Siths in the team
+- **total_force** -- Total force of the team
+
+### Bases
+- **base_id** -- Primary key, unique identifier for each base
+- **location** -- Location of the base
+- **security_level** -- Security level of the base (Low, Medium, High)
+- **resources** -- Resources available at the base
+
+### Attacks
+- **attack_id** -- Primary key, unique identifier for each attack
+- **attack_date** -- Date of the attack
+- **success_probability** -- Probability of the attack being successful
+
+### Weapons
+- **weapon_id** -- Primary key, unique identifier for each weapon
+- **name** -- Name of the weapon
+- **power** -- Power level of the weapon
+
+### Intel
+- **intel_id** -- Primary key, unique identifier for each piece of intel
+- **intel_type** -- Type of intel
+- **details** -- Details of the intel
+
+### Locations
+- **location_id** -- Primary key, unique identifier for each location
+- **name** -- Name of the location
+- **description** -- Description of the location
+
+## Part 2: Relationships between Entities
+
+Analyze and establish the relationships between entities to identify one-to-many (1:N) and many-to-many (M:N) relationships.
+
+Don't forget to `create` join tables in the many-to-many relationships!
+
+- A Rebel Team can be assigned to many Bases.
+- An Imperial Team can participate in many Attacks.
+- A Base can have many pieces of Intel.
+- A Base can have one Locations.
+- An Imperial Team can have many Weapons.
+- A Base can be the target of many Attacks.
+
+### Many-to-Many Relationships (M:N)
+- A Rebel can be in many Rebel Teams, and a Rebel Team can have many Rebels.
+- An Imperial can be in many Imperial Teams, and an Imperial Team can have many Imperials.
 
 
-Retrieve all **actor** which last_name is Wahlberg.<br><br>  
-Fields: All of them.
+### Part 3: Create the Database in Mysql
+
+Create a database named Final_Attack and import the tables created in [DrawDb](https://drawdb.vercel.app)
+
+### Part 3
+
+Import data uploaded to the lab named `Imperial_Data` provided directly by the Imperial Intelligence Team.
+
+### Queries 
 
 
-Retrieve all **film** which title starts with 'Su' or contains the following substring 'xxxin' (x could be any letter or number; i must be at the 4th position followed by n at the 5th; n could or could not be the last letter).<br><br>  
-Fields: title, description, length.
-
-
-Retrieve all **films** which **actor** last_name is 'Torn'.<br><br>  
-Fields: title, first_name, last_name.
-
-
-Retrieve the total sum **payment** of a **customer** order by customer_id. Can you rename the column of the total amount to 'debt'?. Can you filter debt higher than 114?.<br><br>  
-Fields: customer_id, first_name, last_name and the total amount.
 
 
 ### Bonus
 
-Solve the [mystery](https://mystery.knightlab.com/)!
 
 ## Submission
 
