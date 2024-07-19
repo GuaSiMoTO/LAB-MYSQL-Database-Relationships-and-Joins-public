@@ -5,11 +5,12 @@
 
 ## Introduction
 
-> ***Note:*** _This can be a pair programming activity or done independently._
+After demonstrating your skills with the Death Star database, under the supervision of Darth Vader you present your report to Emperor Palpatine. Impressed by your skill and loyalty, he appoints you Supreme Commander of the Empire. Now it is your turn to lead the final attack that will annihilate the Rebel Alliance.
 
-In Reboot Academy we love travelling. That's why we are going to create a database that keeps track of the Flight transportation system worldwide!!
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dfcac290-6a10-46d9-a61d-ddaf3bef86c5" alt="Descripción de la imagen" width="800">
+</p>
 
-Ready??
 
 ## Requirements
 
