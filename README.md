@@ -96,8 +96,8 @@ Analyze and establish the relationships between entities to identify one-to-many
 
 Don't forget to `create` join tables in the many-to-many relationships and put the update and delete cascade in each case where necessary!!
 
-- A Rebel Team can be assigned to many Bases.
-- An Imperial Team can participate in many Attacks.
+- A Rebel Team can only be assigned to one Base but a base can have many Rebel Teams.
+- An Imperial Team may participate in only one Attack but an Attack may be by multiple Imperial Teams. 
 - A Base can have one Locations.
 - A Base can be the target of many Attacks.
 - A Rebel can be in many Rebel Teams, and a Rebel Team can have many Rebels.
