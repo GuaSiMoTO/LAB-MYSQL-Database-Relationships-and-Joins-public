@@ -119,7 +119,65 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 
 ## Part 5 : Queries 
 
+### Ejercicio 1: Equipos Rebeldes y sus Bases
+**Objetivo:** Listar todos los equipos rebeldes y la información de las bases donde están asignados, incluyendo el nombre de la ubicación de la base, ordenados por el nivel de seguridad de las bases.
 
+### Ejercicio 2: Equipos Imperiales y sus Armas
+**Objetivo:** Encontrar todos los equipos imperiales y las armas asignadas a cada equipo, ordenados por el poder de las armas.
+
+### Ejercicio 3: Ataques Planificados y Bases Objetivo
+**Objetivo:** Listar todos los ataques planeados y la información de la base objetivo, incluyendo también las bases que aún no tienen ataques planeados.
+
+### Ejercicio 4: Inteligencia y Ubicaciones de las Bases
+**Objetivo:** Listar todas las bases con su ubicación y cualquier información de inteligencia asociada a esas bases, incluyendo también las bases que aún no tienen información de inteligencia.
+
+### Ejercicio 5: Miembros de Equipos Imperiales
+**Objetivo:** Encontrar todos los miembros de los equipos imperiales y la información de los equipos a los que pertenecen.
+
+### Ejercicio 6: Bases y Ubicaciones
+**Objetivo:** Listar todas las bases y la ubicación de cada una, incluyendo las ubicaciones que aún no tienen bases.
+
+### Ejercicio 7: Equipos Rebeldes y Número de Miembros
+**Objetivo:** Obtener la información de los equipos rebeldes y el número total de miembros por equipo.
+
+### Ejercicio 8: Armas y Equipos Imperiales
+**Objetivo:** Listar todas las armas y los equipos imperiales a los que están asignadas, incluyendo las armas que aún no están asignadas a ningún equipo.
+
+### Ejercicio 9: Ataques Planificados y Equipos Imperiales Asignados
+**Objetivo:** Obtener la lista de todos los ataques planeados junto con la probabilidad de éxito y los equipos imperiales asignados a cada ataque.
+
+### Ejercicio 10: Bases, Ubicaciones y Equipos Rebeldes
+**Objetivo:** Listar todas las bases junto con la información de las ubicaciones y la cantidad de equipos rebeldes estacionados en cada base.
+
+### Ejercicio 11: Equipos Rebeldes, Ubicaciones y Recursos de las Bases
+**Objetivo:** Obtener una lista de los equipos rebeldes, las ubicaciones de sus bases y los recursos disponibles en dichas bases.
+
+### Ejercicio 12: Información de Inteligencia y Equipos Rebeldes
+**Objetivo:** Listar toda la información de inteligencia relacionada con las bases y los equipos rebeldes asignados a esas bases.
+
+### Ejercicio 13: Armas y Equipos Imperiales con Potencia Mayor a 75
+**Objetivo:** Listar todas las armas con una potencia mayor a 75 y los equipos imperiales a los que están asignadas.
+
+### Ejercicio 14: Resumen de Ataques con Equipos Involucrados
+**Objetivo:** Obtener un resumen de todos los ataques planificados, incluyendo la probabilidad de éxito y los equipos imperiales y rebeldes involucrados.
+
+### Ejercicio 15: Equipos Rebeldes y Probabilidades de Éxito en Ataques
+**Objetivo:** Listar todos los equipos rebeldes y las probabilidades de éxito de los ataques en los que sus bases están involucradas.
+
+### Ejercicio 16: Ataques con Probabilidad de Éxito Mayor al 70%
+**Objetivo:** Listar los ataques planeados con una probabilidad de éxito mayor al 70%, incluyendo información de la base objetivo y el equipo imperial asignado.
+
+### Ejercicio 17: Equipos Rebeldes con más de 20 Miembros
+**Objetivo:** Listar todos los equipos rebeldes que tienen más de 20 miembros, ordenados por el número total de miembros.
+
+### Ejercicio 18: Información de Inteligencia sobre Bases con Seguridad Alta
+**Objetivo:** Obtener toda la información de inteligencia sobre bases con un nivel de seguridad alto.
+
+### Ejercicio 19: Resumen de Recursos por Ubicación
+**Objetivo:** Obtener un resumen de los recursos disponibles en cada ubicación, agrupados por la ubicación.
+
+### Ejercicio 20: Equipos Imperiales y Total de Armas Asignadas
+**Objetivo:** Listar todos los equipos imperiales y el número total de armas asignadas a cada equipo, ordenados por el número total de armas.
 
 
 
