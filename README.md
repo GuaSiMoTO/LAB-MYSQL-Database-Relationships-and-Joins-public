@@ -119,57 +119,57 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 
 ## Part 5 : Queries 
 
-Listar todos los equipos rebeldes y la información de las bases donde están asignados, incluyendo el nombre de la ubicación de la base, ordenados por el nivel de seguridad de las bases.
+- Listar todos los equipos rebeldes y la información de las bases donde están asignados, incluyendo el nombre de la ubicación de la base, ordenados por el nivel de seguridad de las bases.
 
-Encontrar todos los equipos imperiales y las armas asignadas a cada equipo, ordenados por el poder de las armas.
+- Encontrar todos los equipos imperiales y las armas asignadas a cada equipo, ordenados por el poder de las armas.
 
-Listar todos los ataques planeados y la información de la base objetivo, incluyendo también las bases que aún no tienen ataques planeados.
+- Listar todos los ataques planeados y la información de la base objetivo, incluyendo también las bases que aún no tienen ataques planeados.
 
-Listar todas las bases con su ubicación y cualquier información de inteligencia asociada a esas bases, incluyendo también las bases que aún no tienen información de inteligencia.
+- Listar todas las bases con su ubicación y cualquier información de inteligencia asociada a esas bases, incluyendo también las bases que aún no tienen información de inteligencia.
 
-Encontrar todos los miembros de los equipos imperiales y la información de los equipos a los que pertenecen.
+- Encontrar todos los miembros de los equipos imperiales y la información de los equipos a los que pertenecen.
 
-Listar todas las bases y la ubicación de cada una, incluyendo las ubicaciones que aún no tienen bases.
+- Listar todas las bases y la ubicación de cada una, incluyendo las ubicaciones que aún no tienen bases.
 
-Obtener la información de los equipos rebeldes y el número total de miembros por equipo.
+- Obtener la información de los equipos rebeldes y el número total de miembros por equipo.
 
-Listar todas las armas y los equipos imperiales a los que están asignadas, incluyendo las armas que aún no están asignadas a ningún equipo.
+- Listar todas las armas y los equipos imperiales a los que están asignadas, incluyendo las armas que aún no están asignadas a ningún equipo.
 
-Obtener la lista de todos los ataques planeados junto con la probabilidad de éxito y los equipos imperiales asignados a cada ataque.
+- Obtener la lista de todos los ataques planeados junto con la probabilidad de éxito y los equipos imperiales asignados a cada ataque.
 
-Listar todas las bases junto con la información de las ubicaciones y la cantidad de equipos rebeldes estacionados en cada base.
+- Listar todas las bases junto con la información de las ubicaciones y la cantidad de equipos rebeldes estacionados en cada base.
 
-Obtener una lista de los equipos rebeldes, las ubicaciones de sus bases y los recursos disponibles en dichas bases.
+- Obtener una lista de los equipos rebeldes, las ubicaciones de sus bases y los recursos disponibles en dichas bases.
 
-Listar toda la información de inteligencia relacionada con las bases y los equipos rebeldes asignados a esas bases. Ademas limitalos a 10
+- Listar toda la información de inteligencia relacionada con las bases y los equipos rebeldes asignados a esas bases. Ademas limitalos a 10
 
-Encontrar el equipo imperial con la mayor y menor fuerza total
+- Encontrar el equipo imperial con la mayor y menor fuerza total
 
-Promedio de Probabilidad de Éxito de los Ataques
+- Promedio de Probabilidad de Éxito de los Ataques
 
-Top 5 Equipos Rebeldes con Mayor Fuerza Total
+- Top 5 Equipos Rebeldes con Mayor Fuerza Total
 
-Listar todos los equipos rebeldes que tienen más de 20 miembros, ordenados por el número total de miembros.
+- Listar todos los equipos rebeldes que tienen más de 20 miembros, ordenados por el número total de miembros.
 
-Obtener toda la información de inteligencia sobre bases con un nivel de seguridad alto.
+- Obtener toda la información de inteligencia sobre bases con un nivel de seguridad alto.
 
-Obtener un resumen de los recursos disponibles en cada ubicación, agrupados por la ubicación.
+- Obtener un resumen de los recursos disponibles en cada ubicación, agrupados por la ubicación.
 
-Listar todos los equipos imperiales y el número total de armas asignadas a cada equipo, ordenados por el número total de armas.
+- Listar todos los equipos imperiales y el número total de armas asignadas a cada equipo, ordenados por el número total de armas.
 
 ## Bonus
 
-Calcular el promedio del poder de las armas asignadas a cada equipo imperial
+- Calcular el promedio del poder de las armas asignadas a cada equipo imperial
 
-Obtener el total de fuerza de los equipos rebeldes estacionados en cada base
+- Obtener el total de fuerza de los equipos rebeldes estacionados en cada base
 
-Listar todas las armas con una potencia mayor a 75 y los equipos imperiales a los que están asignadas.
+- Listar todas las armas con una potencia mayor a 75 y los equipos imperiales a los que están asignadas.
 
-Obtener un resumen de todos los ataques planificados, incluyendo la probabilidad de éxito y los equipos imperiales y rebeldes involucrados.
+- Obtener un resumen de todos los ataques planificados, incluyendo la probabilidad de éxito y los equipos imperiales y rebeldes involucrados.
 
-Listar todos los equipos rebeldes y las probabilidades de éxito de los ataques en los que sus bases están involucradas.
+- Listar todos los equipos rebeldes y las probabilidades de éxito de los ataques en los que sus bases están involucradas.
 
-Listar los ataques planeados con una probabilidad de éxito mayor al 70%, incluyendo información de la base objetivo y el equipo imperial asignado.
+- Listar los ataques planeados con una probabilidad de éxito mayor al 70%, incluyendo información de la base objetivo y el equipo imperial asignado.
 
 
 ## Submission
