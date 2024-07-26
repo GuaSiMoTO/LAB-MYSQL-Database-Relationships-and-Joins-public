@@ -152,10 +152,10 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 ### Ejercicio 11: Equipos Rebeldes, Ubicaciones y Recursos de las Bases
 **Objetivo:** Obtener una lista de los equipos rebeldes, las ubicaciones de sus bases y los recursos disponibles en dichas bases.
 
-### Ejercicio 12: Información de Inteligencia y Equipos Rebeldes
-**Objetivo:** Listar toda la información de inteligencia relacionada con las bases y los equipos rebeldes asignados a esas bases.
+### Ejercicio 12: Información de Inteligencia y Equipos Rebeldes 
+**Objetivo:** Listar toda la información de inteligencia relacionada con las bases y los equipos rebeldes asignados a esas bases. Ademas limitalos a 10
 
-### Ejercicio 13: Armas y Equipos Imperiales con Potencia Mayor a 75
+### Ejercicio 13: Armas y Equipos Imperiales con Potencia Mayor a 95
 **Objetivo:** Listar todas las armas con una potencia mayor a 75 y los equipos imperiales a los que están asignadas.
 
 ### Ejercicio 14: Resumen de Ataques con Equipos Involucrados
