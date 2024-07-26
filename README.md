@@ -26,7 +26,8 @@ After demonstrating your skills with the Death Star database, under the supervis
   
 ## Tools
 
-**DBDiagram**
+**DrawDb**
+
 You can also check out [DrawDb](https://drawdb.vercel.app) 
 
 ## Instructions
