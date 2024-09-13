@@ -119,57 +119,58 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 
 ## Part 5 : Queries 
 
-- Listar todos los equipos rebeldes y la información de las bases donde están asignados, incluyendo el nombre de la ubicación de la base, ordenados por el nivel de seguridad de las bases.
+- List all Rebel teams and the information of the bases where they are assigned, including the name of the base location, ordered by the security level of the bases.
 
-- Encontrar todos los equipos imperiales y las armas asignadas a cada equipo, ordenados por el poder de las armas.
+- Find all Imperial teams and the weapons assigned to each team, ordered by the power of the weapons.
 
-- Listar todos los ataques planeados y la información de la base objetivo, incluyendo también las bases que aún no tienen ataques planeados.
+- List all planned attacks and the information of the target base, including also the bases that do not yet have planned attacks.
 
-- Listar todas las bases con su ubicación y cualquier información de inteligencia asociada a esas bases, incluyendo también las bases que aún no tienen información de inteligencia.
+- List all bases with their location and any intelligence information associated with those bases, including also the bases that do not yet have intelligence information.
 
-- Encontrar todos los miembros de los equipos imperiales y la información de los equipos a los que pertenecen.
+- Find all members of the Imperial teams and the information of the teams to which they belong.
 
-- Listar todas las bases y la ubicación de cada una, incluyendo las ubicaciones que aún no tienen bases.
+- List all bases and the location of each one, including the locations that do not yet have bases.
 
-- Obtener la información de los equipos rebeldes y el número total de miembros por equipo.
+- Get the information of Rebel teams and the total number of members per team.
 
-- Listar todas las armas y los equipos imperiales a los que están asignadas, incluyendo las armas que aún no están asignadas a ningún equipo.
+- List all weapons and the Imperial teams to which they are assigned, including the weapons that are not yet assigned to any team.
 
-- Obtener la lista de todos los ataques planeados junto con la probabilidad de éxito y los equipos imperiales asignados a cada ataque.
+- Get the list of all planned attacks along with the probability of success and the Imperial teams assigned to each attack.
 
-- Listar todas las bases junto con la información de las ubicaciones y la cantidad de equipos rebeldes estacionados en cada base.
+- List all bases along with the location information and the number of Rebel teams stationed at each base.
 
-- Obtener una lista de los equipos rebeldes, las ubicaciones de sus bases y los recursos disponibles en dichas bases.
+- Get a list of the Rebel teams, the locations of their bases, and the resources available at those bases.
 
-- Listar toda la información de inteligencia relacionada con las bases y los equipos rebeldes asignados a esas bases. Ademas limitalos a 10
+- List all intelligence information related to the bases and the Rebel teams assigned to those bases. Limit the results to 10.
 
-- Encontrar el equipo imperial con la mayor y menor fuerza total
+- Find the Imperial team with the highest and lowest total strength.
 
-- Promedio de Probabilidad de Éxito de los Ataques
+- Average probability of success of the attacks.
 
-- Top 5 Equipos Rebeldes con Mayor Fuerza Total
+- Top 5 Rebel teams with the highest total strength.
 
-- Listar todos los equipos rebeldes que tienen más de 20 miembros, ordenados por el número total de miembros.
+- List all Rebel teams that have more than 20 members, ordered by the total number of members.
 
-- Obtener toda la información de inteligencia sobre bases con un nivel de seguridad alto.
+- Get all intelligence information about bases with a high-security level.
 
-- Obtener un resumen de los recursos disponibles en cada ubicación, agrupados por la ubicación.
+- Get a summary of the resources available at each location, grouped by the location.
 
-- Listar todos los equipos imperiales y el número total de armas asignadas a cada equipo, ordenados por el número total de armas.
+- List all Imperial teams and the total number of weapons assigned to each team, ordered by the total number of weapons.
 
 ## Bonus
 
-- Calcular el promedio del poder de las armas asignadas a cada equipo imperial
+- Calculate the average power of the weapons assigned to each Imperial team.
 
-- Obtener el total de fuerza de los equipos rebeldes estacionados en cada base
+- Get the total strength of the Rebel teams stationed at each base.
 
-- Listar todas las armas con una potencia mayor a 75 y los equipos imperiales a los que están asignadas.
+- List all weapons with power greater than 75 and the Imperial teams to which they are assigned.
 
-- Obtener un resumen de todos los ataques planificados, incluyendo la probabilidad de éxito y los equipos imperiales y rebeldes involucrados.
+- Get a summary of all planned attacks, including the probability of success and the Imperial and Rebel teams involved.
 
-- Listar todos los equipos rebeldes y las probabilidades de éxito de los ataques en los que sus bases están involucradas.
+- List all Rebel teams and the probabilities of success of the attacks in which their bases are involved.
 
-- Listar los ataques planeados con una probabilidad de éxito mayor al 70%, incluyendo información de la base objetivo y el equipo imperial asignado.
+- List the planned attacks with a success probability greater than 70%, including target base information and the assigned Imperial team.
+
 
 
 ## Submission
