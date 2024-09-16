@@ -88,7 +88,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `ImperialTeams` WRITE;
 /*!40000 ALTER TABLE `ImperialTeams` DISABLE KEYS */;
-INSERT INTO `ImperialTeams` (imperial_team_id, team_name, team_size, active_missions, total_missions, id_attack) VALUES
+INSERT INTO `ImperialTeams` (team_id, name, team_size, active_missions, total_missions, id_attack) VALUES
 (1, 'Death Star Garrison', 100, 1, 101, 1),
 (2, 'Vader\'s Fist', 50, 1, 51, 2),
 (3, 'TIE Fighter Pilots', 75, 0, 75, 3),
