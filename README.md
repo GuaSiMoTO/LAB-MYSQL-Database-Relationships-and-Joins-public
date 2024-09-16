@@ -157,6 +157,12 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 
 - List all Imperial teams and the total number of weapons assigned to each team, ordered by the total number of weapons.
 
+
+## Part 6 : Enhancing SQL Queries 
+
+Modify at least 5 of the above queries by adding aggregation functions such as COUNT, SUM, AVG, MAX, MIN, or using GROUP BY clauses to obtain more detailed or summarized information that is useful for the war, in addition to the query explains the reason for the query
+  
+
 ## Bonus
 
 - Calculate the average power of the weapons assigned to each Imperial team.
