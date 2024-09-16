@@ -25,6 +25,31 @@ INSERT INTO `Attacks` VALUES (1,'2024-01-15 14:30:00',85.50,1),(2,'2024-02-10 18
 /*!40000 ALTER TABLE `Attacks` ENABLE KEYS */;
 UNLOCK TABLES;
 
+LOCK TABLES `RebelArmy` WRITE;
+INSERT INTO `RebelArmy` (rebel_id, name, type) VALUES 
+(1, 'Luke Skywalker', 'Jedi'),
+(2, 'Leia Organa', 'Military'),
+(3, 'Han Solo', 'Military'),
+(4, 'Chewbacca', 'Robot'),
+(5, 'C-3PO', 'Robot'),
+(6, 'R2-D2', 'Robot'),
+(7, 'Ahsoka Tano', 'Jedi'),
+(8, 'Lando Calrissian', 'Military'),
+(9, 'Wedge Antilles', 'Military'),
+(10, 'Ezra Bridger', 'Jedi'),
+(11, 'Jyn Erso', 'Military'),
+(12, 'Cassian Andor', 'Military'),
+(13, 'Hera Syndulla', 'Military'),
+(14, 'Kanan Jarrus', 'Jedi'),
+(15, 'Sabine Wren', 'Military'),
+(16, 'Admiral Ackbar', 'Military'),
+(17, 'Saw Gerrera', 'Military'),
+(18, 'Mon Mothma', 'Military'),
+(19, 'Bail Organa', 'Military'),
+(20, 'Chopper', 'Robot');
+UNLOCK TABLES;
+
+
 --
 -- Dumping data for table `Bases`
 --
