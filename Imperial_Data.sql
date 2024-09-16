@@ -16,6 +16,28 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Dumping data for table `Bases`
+--
+
+LOCK TABLES `Bases` WRITE;
+/*!40000 ALTER TABLE `Bases` DISABLE KEYS */;
+INSERT INTO `Bases` VALUES (1,1,'High','X-Wing fighters, Medical supplies, Bacta tanks'),(2,2,'Medium','A-Wing fighters, Food supplies, Repair kits'),(3,3,'High','Hoth ion cannon, Snowspeeders, Power generators'),(4,4,'Low','Basic supplies, Communication equipment'),(5,5,'Medium','Weapons cache, Ration packs'),(6,6,'High','Shield generators, Heavy artillery'),(7,7,'Medium','Training facilities, Light vehicles'),(8,8,'Low','Recon equipment, Survival gear'),(9,9,'High','Starfighters, Advanced medical facilities'),(10,10,'Medium','Provisions, Small arms'),(11,11,'High','Orbital defenses, High security systems'),(12,12,'Low','Minimal defenses, Hidden location'),(13,13,'Medium','Moderate defenses, Communication array'),(14,14,'High','Heavy artillery, Reinforced bunkers'),(15,15,'Medium','Sensor array, Food rations'),(16,16,'Low','Temporary shelter, Emergency supplies'),(17,17,'Medium','Medical droids, Vehicle repair kits'),(18,18,'High','Anti-aircraft weapons, Secure vaults'),(19,19,'Medium','Heavy blasters, Energy shields'),(20,20,'Low','Scouting gear, Temporary shelter');
+/*!40000 ALTER TABLE `Bases` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+--
+-- Dumping data for table `Locations`
+--
+
+LOCK TABLES `Locations` WRITE;
+/*!40000 ALTER TABLE `Locations` DISABLE KEYS */;
+INSERT INTO `Locations` VALUES (1,'Yavin IV','Forest moon with a rebel base hidden in the ruins.'),(2,'Endor','Forest moon with an Imperial shield generator.'),(3,'Hoth','Icy planet with an underground rebel base.'),(4,'Tatooine','Desert planet with sparse settlements.'),(5,'Dagobah','Swampy planet, home to Yoda\'s exile.'),(6,'Bespin','Gas giant with a floating city.'),(7,'Alderaan','Peaceful planet destroyed by the Death Star.'),(8,'Mustafar','Volcanic planet, location of Vader\'s castle.'),(9,'Scarif','Tropical planet with an Imperial data center.'),(10,'Geonosis','Desert planet with droid factories.'),(11,'Kashyyyk','Wookiee homeworld with dense forests.'),(12,'Kamino','Ocean planet with cloning facilities.'),(13,'Jakku','Desert planet with wreckage from battles.'),(14,'Lothal','Industrial planet with significant rebel activity.'),(15,'Mon Cala','Aquatic planet with Mon Calamari shipyards.'),(16,'Coruscant','Urban planet and political hub of the galaxy.'),(17,'Corellia','Industrial planet known for shipbuilding.'),(18,'Naboo','Peaceful planet with a mix of landscapes.'),(19,'Dantooine','Remote planet with a hidden rebel base.'),(20,'Dagobah','Remote swamp planet, strong in the Force.');
+/*!40000 ALTER TABLE `Locations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+--
 -- Dumping data for table `Attacks`
 --
 
@@ -49,17 +71,6 @@ INSERT INTO `RebelArmy` (rebel_id, name, type) VALUES
 (20, 'Chopper', 'Robot');
 UNLOCK TABLES;
 
-
---
--- Dumping data for table `Bases`
---
-
-LOCK TABLES `Bases` WRITE;
-/*!40000 ALTER TABLE `Bases` DISABLE KEYS */;
-INSERT INTO `Bases` VALUES (1,1,'High','X-Wing fighters, Medical supplies, Bacta tanks'),(2,2,'Medium','A-Wing fighters, Food supplies, Repair kits'),(3,3,'High','Hoth ion cannon, Snowspeeders, Power generators'),(4,4,'Low','Basic supplies, Communication equipment'),(5,5,'Medium','Weapons cache, Ration packs'),(6,6,'High','Shield generators, Heavy artillery'),(7,7,'Medium','Training facilities, Light vehicles'),(8,8,'Low','Recon equipment, Survival gear'),(9,9,'High','Starfighters, Advanced medical facilities'),(10,10,'Medium','Provisions, Small arms'),(11,11,'High','Orbital defenses, High security systems'),(12,12,'Low','Minimal defenses, Hidden location'),(13,13,'Medium','Moderate defenses, Communication array'),(14,14,'High','Heavy artillery, Reinforced bunkers'),(15,15,'Medium','Sensor array, Food rations'),(16,16,'Low','Temporary shelter, Emergency supplies'),(17,17,'Medium','Medical droids, Vehicle repair kits'),(18,18,'High','Anti-aircraft weapons, Secure vaults'),(19,19,'Medium','Heavy blasters, Energy shields'),(20,20,'Low','Scouting gear, Temporary shelter');
-/*!40000 ALTER TABLE `Bases` ENABLE KEYS */;
-UNLOCK TABLES;
-
 --
 -- Dumping data for table `ImperialArmy`
 --
@@ -70,25 +81,6 @@ INSERT INTO `ImperialArmy` VALUES (1,'Darth Vader','Sith Lord'),(2,'Grand Moff T
 /*!40000 ALTER TABLE `ImperialArmy` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Dumping data for table `ImperialTeamMembers`
---
-
-LOCK TABLES `ImperialTeamMembers` WRITE;
-/*!40000 ALTER TABLE `ImperialTeamMembers` DISABLE KEYS */;
-INSERT INTO `ImperialTeamMembers` VALUES (1,1),(20,1),(1,2),(2,2),(2,3),(3,3),(3,4),(4,4),(4,5),(5,5),(5,6),(6,6),(6,7),(7,7),(7,8),(8,8),(8,9),(9,9),(9,10),(10,10),(10,11),(11,11),(11,12),(12,12),(12,13),(13,13),(13,14),(14,14),(14,15),(15,15),(15,16),(16,16),(16,17),(17,17),(17,18),(18,18),(18,19),(19,19),(19,20),(20,20);
-/*!40000 ALTER TABLE `ImperialTeamMembers` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Dumping data for table `ImperialTeamWeapons`
---
-
-LOCK TABLES `ImperialTeamWeapons` WRITE;
-/*!40000 ALTER TABLE `ImperialTeamWeapons` DISABLE KEYS */;
-INSERT INTO `ImperialTeamWeapons` VALUES (1,1),(19,1),(2,2),(20,2),(1,3),(3,3),(2,4),(4,4),(3,5),(5,5),(4,6),(6,6),(5,7),(7,7),(6,8),(8,8),(7,9),(9,9),(8,10),(10,10),(9,11),(11,11),(10,12),(12,12),(11,13),(13,13),(12,14),(14,14),(13,15),(15,15),(14,16),(16,16),(15,17),(17,17),(16,18),(18,18),(17,19),(19,19),(18,20),(20,20);
-/*!40000 ALTER TABLE `ImperialTeamWeapons` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Dumping data for table `ImperialTeams`
@@ -130,25 +122,6 @@ INSERT INTO `Intel` VALUES (1,'Troop Movements','Increased rebel activity near t
 /*!40000 ALTER TABLE `Intel` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Dumping data for table `Locations`
---
-
-LOCK TABLES `Locations` WRITE;
-/*!40000 ALTER TABLE `Locations` DISABLE KEYS */;
-INSERT INTO `Locations` VALUES (1,'Yavin IV','Forest moon with a rebel base hidden in the ruins.'),(2,'Endor','Forest moon with an Imperial shield generator.'),(3,'Hoth','Icy planet with an underground rebel base.'),(4,'Tatooine','Desert planet with sparse settlements.'),(5,'Dagobah','Swampy planet, home to Yoda\'s exile.'),(6,'Bespin','Gas giant with a floating city.'),(7,'Alderaan','Peaceful planet destroyed by the Death Star.'),(8,'Mustafar','Volcanic planet, location of Vader\'s castle.'),(9,'Scarif','Tropical planet with an Imperial data center.'),(10,'Geonosis','Desert planet with droid factories.'),(11,'Kashyyyk','Wookiee homeworld with dense forests.'),(12,'Kamino','Ocean planet with cloning facilities.'),(13,'Jakku','Desert planet with wreckage from battles.'),(14,'Lothal','Industrial planet with significant rebel activity.'),(15,'Mon Cala','Aquatic planet with Mon Calamari shipyards.'),(16,'Coruscant','Urban planet and political hub of the galaxy.'),(17,'Corellia','Industrial planet known for shipbuilding.'),(18,'Naboo','Peaceful planet with a mix of landscapes.'),(19,'Dantooine','Remote planet with a hidden rebel base.'),(20,'Dagobah','Remote swamp planet, strong in the Force.');
-/*!40000 ALTER TABLE `Locations` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Dumping data for table `RebelTeamMembers`
---
-
-LOCK TABLES `RebelTeamMembers` WRITE;
-/*!40000 ALTER TABLE `RebelTeamMembers` DISABLE KEYS */;
-INSERT INTO `RebelTeamMembers` VALUES (1,1),(20,1),(1,2),(2,2),(2,3),(3,3),(3,4),(4,4),(4,5),(5,5),(5,6),(6,6),(6,7),(7,7),(7,8),(8,8),(8,9),(9,9),(9,10),(10,10),(10,11),(11,11),(11,12),(12,12),(12,13),(13,13),(13,14),(14,14),(14,15),(15,15),(15,16),(16,16),(16,17),(17,17),(17,18),(18,18),(18,19),(19,19),(19,20),(20,20);
-/*!40000 ALTER TABLE `RebelTeamMembers` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Dumping data for table `RebelTeams`
@@ -169,6 +142,38 @@ LOCK TABLES `Weapons` WRITE;
 INSERT INTO `Weapons` VALUES (1,'Blaster Rifle',50),(2,'Lightsaber',100),(3,'Thermal Detonator',80),(4,'DLT-19 Heavy Blaster',70),(5,'E-11 Blaster',55),(6,'Ion Cannon',120),(7,'Proton Torpedo',90),(8,'Concussion Grenade',75),(9,'Turbo Laser',200),(10,'Seismic Charge',150),(11,'Sonic Blaster',60),(12,'Electrostaff',85),(13,'Flamethrower',70),(14,'Disruptor Rifle',95),(15,'Vibroblade',45),(16,'Railgun',130),(17,'Carbonite Rifle',110),(18,'Blaster Pistol',40),(19,'Bowcaster',100),(20,'Pulse Cannon',105);
 /*!40000 ALTER TABLE `Weapons` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping data for table `ImperialTeamMembers`
+--
+
+LOCK TABLES `ImperialTeamMembers` WRITE;
+/*!40000 ALTER TABLE `ImperialTeamMembers` DISABLE KEYS */;
+INSERT INTO `ImperialTeamMembers` VALUES (1,1),(20,1),(1,2),(2,2),(2,3),(3,3),(3,4),(4,4),(4,5),(5,5),(5,6),(6,6),(6,7),(7,7),(7,8),(8,8),(8,9),(9,9),(9,10),(10,10),(10,11),(11,11),(11,12),(12,12),(12,13),(13,13),(13,14),(14,14),(14,15),(15,15),(15,16),(16,16),(16,17),(17,17),(17,18),(18,18),(18,19),(19,19),(19,20),(20,20);
+/*!40000 ALTER TABLE `ImperialTeamMembers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `ImperialTeamWeapons`
+--
+
+LOCK TABLES `ImperialTeamWeapons` WRITE;
+/*!40000 ALTER TABLE `ImperialTeamWeapons` DISABLE KEYS */;
+INSERT INTO `ImperialTeamWeapons` VALUES (1,1),(19,1),(2,2),(20,2),(1,3),(3,3),(2,4),(4,4),(3,5),(5,5),(4,6),(6,6),(5,7),(7,7),(6,8),(8,8),(7,9),(9,9),(8,10),(10,10),(9,11),(11,11),(10,12),(12,12),(11,13),(13,13),(12,14),(14,14),(13,15),(15,15),(14,16),(16,16),(15,17),(17,17),(16,18),(18,18),(17,19),(19,19),(18,20),(20,20);
+/*!40000 ALTER TABLE `ImperialTeamWeapons` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+--
+-- Dumping data for table `RebelTeamMembers`
+--
+
+LOCK TABLES `RebelTeamMembers` WRITE;
+/*!40000 ALTER TABLE `RebelTeamMembers` DISABLE KEYS */;
+INSERT INTO `RebelTeamMembers` VALUES (1,1),(20,1),(1,2),(2,2),(2,3),(3,3),(3,4),(4,4),(4,5),(5,5),(5,6),(6,6),(6,7),(7,7),(7,8),(8,8),(8,9),(9,9),(9,10),(10,10),(10,11),(11,11),(11,12),(12,12),(12,13),(13,13),(13,14),(14,14),(14,15),(15,15),(15,16),(16,16),(16,17),(17,17),(17,18),(18,18),(18,19),(19,19),(19,20),(20,20);
+/*!40000 ALTER TABLE `RebelTeamMembers` ENABLE KEYS */;
+UNLOCK TABLES;
+  
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
