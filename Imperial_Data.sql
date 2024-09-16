@@ -96,7 +96,27 @@ UNLOCK TABLES;
 
 LOCK TABLES `ImperialTeams` WRITE;
 /*!40000 ALTER TABLE `ImperialTeams` DISABLE KEYS */;
-INSERT INTO `ImperialTeams` VALUES (1,'Death Star Garrison',100,1,101),(2,'Vader\'s Fist',50,1,51),(3,'TIE Fighter Pilots',75,0,75),(4,'Scarif Troopers',40,0,40),(5,'Imperial Navy',120,0,120),(6,'Inquisitors',10,5,15),(7,'Krennic\'s Squad',30,1,31),(8,'Stormtrooper Corps',200,0,200),(9,'Elite Guard',25,2,27),(10,'Dark Troopers',50,0,50),(11,'Death Squadron',60,1,61),(12,'Sith Acolytes',20,4,24),(13,'Shadow Troopers',40,0,40),(14,'Purge Troopers',30,1,31),(15,'Royal Guard',10,0,10),(16,'Sith Infiltrators',15,3,18),(17,'Crimson Dawn',25,2,27),(18,'Night Troopers',35,0,35),(19,'Death Watch',50,1,51),(20,'Emperor\'s Hand',5,1,6);
+INSERT INTO `ImperialTeams` (imperial_team_id, team_name, team_size, active_missions, total_missions, id_attack) VALUES
+(1, 'Death Star Garrison', 100, 1, 101, 1),
+(2, 'Vader\'s Fist', 50, 1, 51, 2),
+(3, 'TIE Fighter Pilots', 75, 0, 75, 3),
+(4, 'Scarif Troopers', 40, 0, 40, 4),
+(5, 'Imperial Navy', 120, 0, 120, 5),
+(6, 'Inquisitors', 10, 5, 15, 6),
+(7, 'Krennic\'s Squad', 30, 1, 31, 7),
+(8, 'Stormtrooper Corps', 200, 0, 200, 8),
+(9, 'Elite Guard', 25, 2, 27, 9),
+(10, 'Dark Troopers', 50, 0, 50, 10),
+(11, 'Death Squadron', 60, 1, 61, 11),
+(12, 'Sith Acolytes', 20, 4, 24, 12),
+(13, 'Shadow Troopers', 40, 0, 40, 13),
+(14, 'Purge Troopers', 30, 1, 31, 14),
+(15, 'Royal Guard', 10, 0, 10, 15),
+(16, 'Sith Infiltrators', 15, 3, 18, 16),
+(17, 'Crimson Dawn', 25, 2, 27, 17),
+(18, 'Night Troopers', 35, 0, 35, 18),
+(19, 'Death Watch', 50, 1, 51, 19),
+(20, 'Emperor\'s Hand', 5, 1, 6, 20);
 /*!40000 ALTER TABLE `ImperialTeams` ENABLE KEYS */;
 UNLOCK TABLES;
 
