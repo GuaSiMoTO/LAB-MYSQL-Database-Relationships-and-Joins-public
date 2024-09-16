@@ -60,9 +60,9 @@ Now that Emperor Palpatine has put you in command of the war against the rebels,
 ### ImperialTeams
 - **team_id** -- Primary key, unique identifier for each imperial team
 - **name** -- Name of the imperial team
-- **soldier_count** -- Number of soldiers in the team
-- **sith_count** -- Number of Siths in the team
-- **total_force** -- Total force of the team
+- **team_size** -- Number of soldiers in the team
+- **active_missions** -- 
+- **total_missions** -- 
 
 ### Bases
 - **base_id** -- Primary key, unique identifier for each base
