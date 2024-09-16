@@ -101,7 +101,7 @@ Don't forget to `create` join tables in the many-to-many relationships and put t
 - A Base can have one Locations.
 - A Base can be the target of many Attacks.
 - A Rebel can be in many Rebel Teams, and a Rebel Team can have many Rebels.
-- An Imperial team can have many weapons and many weapons can be in an imperial team.
+- An Imperial team can have many weapons and one weapons can be in many imperial team.
 - A Base can have many pieces of Intel.
 - An Imperial can be in many Imperial Teams, and an Imperial Team can have many Imperials.
 
