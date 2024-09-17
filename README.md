@@ -147,7 +147,7 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 
 - List all intelligence information related to the bases and the Rebel teams assigned to those bases. Limit the results to 10.
 
-- List all Rebel teams that have more than 20 members, ordered by the total number of members.
+- List all Rebel teams that have more than 2 members, ordered by the total number of members (Table RebelTeamMembers With Join).
 
 - Get all intelligence information about bases with a high-security level.
 
