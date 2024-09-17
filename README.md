@@ -119,6 +119,10 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 
 ## Part 5 : Queries 
 
+- Average probability of success of the attacks.
+  
+- Top 5 Rebel teams with the highest total strength.
+
 - List all Rebel teams and the information of the bases where they are assigned, including the name of the base location, ordered by the security level of the bases.
 
 - Find all Imperial teams and the weapons assigned to each team, ordered by the power of the weapons.
@@ -143,12 +147,6 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 
 - List all intelligence information related to the bases and the Rebel teams assigned to those bases. Limit the results to 10.
 
-- Find the Imperial team with the highest and lowest total strength.
-
-- Average probability of success of the attacks.
-
-- Top 5 Rebel teams with the highest total strength.
-
 - List all Rebel teams that have more than 20 members, ordered by the total number of members.
 
 - Get all intelligence information about bases with a high-security level.
@@ -156,14 +154,17 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 - Get a summary of the resources available at each location, grouped by the location.
 
 - List all Imperial teams and the total number of weapons assigned to each team, ordered by the total number of weapons.
-
-
-## Part 6 : Enhancing SQL Queries 
-
-Modify at least 5 of the above queries by adding aggregation functions such as COUNT, SUM, AVG, MAX, MIN, or using GROUP BY or join clauses to obtain more detailed or summarized information that is useful for the war, in addition to the query explains the reason for the query
   
 
 ## Bonus
+
+## Part 1 : Enhancing SQL Queries 
+
+Modify at least 5 of the above queries by adding aggregation functions such as COUNT, SUM, AVG, MAX, MIN, or using GROUP BY or join clauses to obtain more detailed or summarized information that is useful for the war, in addition to the query explains the reason for the query
+
+## Part 2 
+
+- Find the Imperial team with the highest and lowest total strength.
 
 - Calculate the average power of the weapons assigned to each Imperial team.
 
@@ -176,7 +177,6 @@ Modify at least 5 of the above queries by adding aggregation functions such as C
 - List all Rebel teams and the probabilities of success of the attacks in which their bases are involved.
 
 - List the planned attacks with a success probability greater than 70%, including target base information and the assigned Imperial team.
-
 
 
 ## Submission
