@@ -48,7 +48,7 @@ Now that Emperor Palpatine has put you in command of the war against the rebels,
 ### ImperialArmy
 - **imperial_id** -- Primary key, unique identifier for each imperial member
 - **name** -- Name of the imperial member
-- **type** -- Type of imperial member (Military, Sith, Robot)
+- **type** -- Type of imperial member - varchar()
 
 ### RebelTeams
 - **team_id** -- Primary key, unique identifier for each rebel team
