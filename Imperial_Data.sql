@@ -15,15 +15,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
---
--- Dumping data for table `Bases`
---
-
-LOCK TABLES `Bases` WRITE;
-/*!40000 ALTER TABLE `Bases` DISABLE KEYS */;
-INSERT INTO `Bases` VALUES (1,1,'High','X-Wing fighters, Medical supplies, Bacta tanks'),(2,2,'Medium','A-Wing fighters, Food supplies, Repair kits'),(3,3,'High','Hoth ion cannon, Snowspeeders, Power generators'),(4,4,'Low','Basic supplies, Communication equipment'),(5,5,'Medium','Weapons cache, Ration packs'),(6,6,'High','Shield generators, Heavy artillery'),(7,7,'Medium','Training facilities, Light vehicles'),(8,8,'Low','Recon equipment, Survival gear'),(9,9,'High','Starfighters, Advanced medical facilities'),(10,10,'Medium','Provisions, Small arms'),(11,11,'High','Orbital defenses, High security systems'),(12,12,'Low','Minimal defenses, Hidden location'),(13,13,'Medium','Moderate defenses, Communication array'),(14,14,'High','Heavy artillery, Reinforced bunkers'),(15,15,'Medium','Sensor array, Food rations'),(16,16,'Low','Temporary shelter, Emergency supplies'),(17,17,'Medium','Medical droids, Vehicle repair kits'),(18,18,'High','Anti-aircraft weapons, Secure vaults'),(19,19,'Medium','Heavy blasters, Energy shields'),(20,20,'Low','Scouting gear, Temporary shelter');
-/*!40000 ALTER TABLE `Bases` ENABLE KEYS */;
-UNLOCK TABLES;
 
 
 --
@@ -34,6 +25,36 @@ LOCK TABLES `Locations` WRITE;
 /*!40000 ALTER TABLE `Locations` DISABLE KEYS */;
 INSERT INTO `Locations` VALUES (1,'Yavin IV','Forest moon with a rebel base hidden in the ruins.'),(2,'Endor','Forest moon with an Imperial shield generator.'),(3,'Hoth','Icy planet with an underground rebel base.'),(4,'Tatooine','Desert planet with sparse settlements.'),(5,'Dagobah','Swampy planet, home to Yoda\'s exile.'),(6,'Bespin','Gas giant with a floating city.'),(7,'Alderaan','Peaceful planet destroyed by the Death Star.'),(8,'Mustafar','Volcanic planet, location of Vader\'s castle.'),(9,'Scarif','Tropical planet with an Imperial data center.'),(10,'Geonosis','Desert planet with droid factories.'),(11,'Kashyyyk','Wookiee homeworld with dense forests.'),(12,'Kamino','Ocean planet with cloning facilities.'),(13,'Jakku','Desert planet with wreckage from battles.'),(14,'Lothal','Industrial planet with significant rebel activity.'),(15,'Mon Cala','Aquatic planet with Mon Calamari shipyards.'),(16,'Coruscant','Urban planet and political hub of the galaxy.'),(17,'Corellia','Industrial planet known for shipbuilding.'),(18,'Naboo','Peaceful planet with a mix of landscapes.'),(19,'Dantooine','Remote planet with a hidden rebel base.'),(20,'Dagobah','Remote swamp planet, strong in the Force.');
 /*!40000 ALTER TABLE `Locations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+--
+-- Dumping data for table `Bases`
+--
+LOCK TABLES `Bases` WRITE;
+/*!40000 ALTER TABLE `Bases` DISABLE KEYS */;
+INSERT INTO `Bases` VALUES 
+(1,NULL,'High','X-Wing fighters, Medical supplies, Bacta tanks'),
+(2,2,'Medium','A-Wing fighters, Food supplies, Repair kits'),
+(3,NULL,'High','Hoth ion cannon, Snowspeeders, Power generators'),
+(4,4,'Low','Basic supplies, Communication equipment'),
+(5,NULL,'Medium','Weapons cache, Ration packs'),
+(6,6,'High','Shield generators, Heavy artillery'),
+(7,7,'Medium','Training facilities, Light vehicles'),
+(8,NULL,'Low','Recon equipment, Survival gear'),
+(9,9,'High','Starfighters, Advanced medical facilities'),
+(10,10,'Medium','Provisions, Small arms'),
+(11,11,'High','Orbital defenses, High security systems'),
+(12,NULL,'Low','Minimal defenses, Hidden location'),
+(13,13,'Medium','Moderate defenses, Communication array'),
+(14,14,'High','Heavy artillery, Reinforced bunkers'),
+(15,NULL,'Medium','Sensor array, Food rations'),
+(16,16,'Low','Temporary shelter, Emergency supplies'),
+(17,17,'Medium','Medical droids, Vehicle repair kits'),
+(18,18,'High','Anti-aircraft weapons, Secure vaults'),
+(19,19,'Medium','Heavy blasters, Energy shields'),
+(20,NULL,'Low','Scouting gear, Temporary shelter');
+/*!40000 ALTER TABLE `Bases` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
