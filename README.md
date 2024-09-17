@@ -160,7 +160,7 @@ Import data uploaded to the lab named `Imperial_Data` provided directly by the I
 
 ## Part 6 : Enhancing SQL Queries 
 
-Modify at least 5 of the above queries by adding aggregation functions such as COUNT, SUM, AVG, MAX, MIN, or using GROUP BY clauses to obtain more detailed or summarized information that is useful for the war, in addition to the query explains the reason for the query
+Modify at least 5 of the above queries by adding aggregation functions such as COUNT, SUM, AVG, MAX, MIN, or using GROUP BY or join clauses to obtain more detailed or summarized information that is useful for the war, in addition to the query explains the reason for the query
   
 
 ## Bonus
