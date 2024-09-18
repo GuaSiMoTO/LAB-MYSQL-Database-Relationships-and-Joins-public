@@ -115,8 +115,6 @@ It's time! Create a database named Final_Attack and import the tables created in
 
 ## Part 4 : Import data
 
-## Exercise
-
 To import the data, you will need the `.sql` file you have. However, not all the data may be in the format you expected. Analyze the file and adjust either your table structure or the `INSERT` statements if necessary.
 
 ### Warning
