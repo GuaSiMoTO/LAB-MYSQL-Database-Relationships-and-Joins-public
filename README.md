@@ -36,7 +36,7 @@ You can also check out [DrawDb](https://drawdb.vercel.app)
 
 
 
-Now that Emperor Palpatine has put you in command of the war against the rebels, you must organize it. To do this, first create the structure of your database in [DrawDb](https://drawdb.vercel.app) where you can save all the relevant data of the war, such as strategies, units at your service, weapons, etc.
+Now that Emperor Palpatine has put you in command of the war against the rebels, you must organize it. To do this, first create the structure of your database in [DrawDb](https://drawdb.vercel.app) where you can save all the relevant data of the war, such as strategies, units at your service, weapons, etc. Use the data types you think are correct for each field 
 
 ### RebelArmy
 - **rebel_id** -- Primary key, unique identifier for each rebel
@@ -48,7 +48,7 @@ Now that Emperor Palpatine has put you in command of the war against the rebels,
 ### ImperialArmy
 - **imperial_id** -- Primary key, unique identifier for each imperial member
 - **name** -- Name of the imperial member
-- **type** -- Type of imperial member - varchar()
+- **type** -- A lot of Type of imperial member
 
 ### RebelTeams
 - **team_id** -- Primary key, unique identifier for each rebel team
@@ -82,7 +82,7 @@ Now that Emperor Palpatine has put you in command of the war against the rebels,
 
 ### Intel
 - **intel_id** -- Primary key, unique identifier for each piece of intel
-- **intel_type** -- Type of intel
+- **intel_type** -- A lot of Type of intel
 - **details** -- Details of the intel
 
 ### Locations
@@ -92,7 +92,7 @@ Now that Emperor Palpatine has put you in command of the war against the rebels,
 
 ## Part 2: Relationships between Entities
 
-Analyze and establish the relationships between entities to identify one-to-many (1:N) and many-to-many (M:N) relationships.
+Analyze and establish the relationships between entities to identify one-to-one (1:1) one-to-many (1:N) or many-to-many (M:N) relationships.
 
 Don't forget to `create` join tables in the many-to-many relationships and put the update and delete cascade in each case where necessary!!
 
@@ -114,6 +114,13 @@ It's time! Create a database named Final_Attack and import the tables created in
 </p>
 
 ## Part 4 : Import data
+
+## Exercise
+
+To import the data, you will need the `.sql` file you have. However, not all the data may be in the format you expected. Analyze the file and adjust either your table structure or the `INSERT` statements if necessary.
+
+### Warning
+If the `INSERT` statement fails, you may need to reorder the `INSERT` statements. This could happen if one table depends on data from another table that hasn't been populated yet.
 
 Import data uploaded to the lab named `Imperial_Data` provided directly by the Imperial Intelligence Team.
 
