@@ -115,7 +115,7 @@ It's time! Create a database named Final_Attack and import the tables created in
 
 ## Part 4 : Import data
 
-To import the data, you will need the `Imperial_Data.sql` provided directly by the Imperial Intelligence Team nin this lab. However, not all the data may be in the format you expected. Analyze the file and adjust either your table structure or the `INSERT` statements if necessary.
+To import the data, you will need the `Imperial_Data.sql` provided directly by the Imperial Intelligence Team in this lab. However, not all the data may be in the format you expected. Analyze the file and adjust either your table structure or the `INSERT` statements if necessary.
 
 ### Warning
 If the `INSERT` statement fails, you may need to reorder the `INSERT` statements. This could happen if one table depends on data from another table that hasn't been populated yet.
