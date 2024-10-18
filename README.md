@@ -95,6 +95,7 @@ Now that Emperor Palpatine has put you in command of the war against the rebels,
 Analyze and establish the relationships between entities to identify one-to-one (1:1) one-to-many (1:N) or many-to-many (M:N) relationships.
 
 Don't forget to `create` join tables in the many-to-many relationships and put the update and delete cascade in each case where necessary!!
+Also, for the dump to work, use this names for the many-to-many tables : `ImperialTeamMembers`, `RebelTeamMembers`, `ImperialTeamWeapons`.
 
 - A Rebel Team can only be assigned to one Base but a base can have many Rebel Teams.
 - An Imperial Team may participate in only one Attack but an Attack may be by multiple Imperial Teams. 
