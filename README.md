@@ -104,7 +104,7 @@ Also, for the dump to work, use this names for the many-to-many tables : `Imperi
 - A Rebel can be in many Rebel Teams, and a Rebel Team can have many Rebels.
 - An Imperial team can have many weapons and one weapons can be in many imperial team.
 - A Base can have many pieces of Intel.
-- An Imperial can be in many Imperial Teams, and an Imperial Team can have many Imperials.
+- An Imperial Army can be in many Imperial Teams, and an Imperial Team can have many Imperials.
 
 
 ## Part 3: Create the Database in Mysql
