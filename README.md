@@ -97,6 +97,10 @@ Analyze and establish the relationships between entities to identify one-to-one 
 Don't forget to `create` join tables in the many-to-many relationships and put the update and delete cascade in each case where necessary!!
 Also, for the dump to work, use names similar to these for the many-to-many tables : `ImperialTeamMembers`, `RebelTeamLocations`, `ImperialTeamIntel`.
 
+> ⚠️ **WARNING**  
+> These **NOT** tables are the tables you must create in your database. Be sure to design and name your tables based on the specific entities and relationships.
+
+
 - A Rebel Team can only be assigned to one Base but a base can have many Rebel Teams.
 - An Imperial Team may participate in only one Attack but an Attack may be by multiple Imperial Teams. 
 - A Base can have one Locations.
