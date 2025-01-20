@@ -146,24 +146,9 @@ If the `INSERT` statement fails, you may need to reorder the `INSERT` statements
 - Get the information of Rebel teams and the total number of members per team.
 
 - List all weapons and the Imperial teams to which they are assigned, including the weapons that are not yet assigned to any team.
-
-- Get the list of all planned attacks along with the probability of success and the Imperial teams assigned to each attack.
-
-- List all bases along with the location information and the number of Rebel teams stationed at each base.
-
-- Get a list of the Rebel teams, the locations of their bases, and the resources available at those bases.
-
-- List all intelligence information related to the bases and the Rebel teams assigned to those bases. Limit the results to 10.
-
-- List all Rebel teams that have more than 2 members, ordered by the total number of members (Table RebelTeamMembers With Join).
-
-- Get all intelligence information about bases with a high-security level.
-
-- Get a summary of the resources available at each location, grouped by the location.
-
-- List all Imperial teams and the total number of weapons assigned to each team, ordered by the total number of weapons.
   
-
+- List all intelligence information related to the bases and the Rebel teams assigned to those bases. Limit the results to 10.
+  
 ## Bonus
 
 ## Part 1 : Enhancing SQL Queries 
@@ -172,20 +157,11 @@ Modify at least 5 of the above queries by adding aggregation functions such as C
 
 ## Part 2 
 
-- Find the Imperial team with the highest and lowest total strength.
+- Get the list of all planned attacks along with the probability of success and the Imperial teams assigned to each attack.
 
-- Calculate the average power of the weapons assigned to each Imperial team.
+- List all bases along with the location information and the number of Rebel teams stationed at each base.
 
-- Get the total strength of the Rebel teams stationed at each base.
-
-- List all weapons with power greater than 75 and the Imperial teams to which they are assigned.
-
-- Get a summary of all planned attacks, including the probability of success and the Imperial and Rebel teams involved.
-
-- List all Rebel teams and the probabilities of success of the attacks in which their bases are involved.
-
-- List the planned attacks with a success probability greater than 70%, including target base information and the assigned Imperial team.
-
+- Get a list of the Rebel teams, the locations of their bases, and the resources available at those bases.
 
 ## Submission
 
