@@ -146,8 +146,7 @@ If the `INSERT` statement fails, you may need to reorder the `INSERT` statements
 - Get the information of Rebel teams and the total number of members per team.
 
 - List all weapons and the Imperial teams to which they are assigned, including the weapons that are not yet assigned to any team.
-  
-- List all intelligence information related to the bases and the Rebel teams assigned to those bases. Limit the results to 10.
+
   
 ## Bonus
 
@@ -162,6 +161,8 @@ Modify at least 5 of the above queries by adding aggregation functions such as C
 - List all bases along with the location information and the number of Rebel teams stationed at each base.
 
 - Get a list of the Rebel teams, the locations of their bases, and the resources available at those bases.
+
+- List all intelligence information related to the bases and the Rebel teams assigned to those bases. Limit the results to 10.
 
 ## Submission
 
