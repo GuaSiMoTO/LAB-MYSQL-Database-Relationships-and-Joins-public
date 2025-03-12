@@ -1,0 +1,47 @@
+-- Part 5 : Queries
+-- Average probability of success of the attacks.
+
+SELECT ROUND(AVG(succes_probability),2) AS average_probability_attaks FROM attacks;
+
+-- Top 5 Rebel teams with the highest total strength.
+
+SELECT name, MAX(total_force) AS highest_total_strength 
+FROM rebelteams
+GROUP BY name
+ORDER BY highest_total_strength DESC
+LIMIT 5;
+
+-- List all Rebel teams and the information of the bases where they are assigned, including the name of the base location, ordered by the security level of the bases.
+
+SELECT rebelteams.name , locations.name ,bases.security_level
+FROM rebelteams
+INNER JOIN bases
+ON rebelteams.base_id = bases.base_id
+INNER JOIN locations
+ON locations.location_id = bases.location
+ORDER BY bases.security_level DESC;
+
+-- Find all Imperial teams and the weapons assigned to each team, ordered by the power of the weapons.
+
+SELECT imperialteams.name, weapons.name FROM imperialteams
+INNER JOIN imperialteamweapons
+ON imperialteams.team_id = imperialteamweapons.imperialteams_id
+INNER JOIN weapons
+ON imperialteamweapons.weapons_id = weapons.weapon_id
+ORDER BY weapons.power;
+
+-- List all planned attacks and the information of the target base, including also the bases that do not yet have planned attacks.
+
+SELECT locations.name, SUM(attacks.succes_probability) AS attacks FROM bases
+LEFT JOIN attacks
+ON bases.base_id = attacks.bases_id
+INNER JOIN locations
+ON locations.location_id = bases.location
+GROUP BY locations.name;
+
+-- List all bases with their location and any intelligence information associated with those bases, including also the bases that do not yet have intelligence information.
+
+SELECT FROM bases
+RIGHT JOIN intel
+ON
+INNER JOIN location
