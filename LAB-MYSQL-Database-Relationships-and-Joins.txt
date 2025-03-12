@@ -41,7 +41,23 @@ GROUP BY locations.name;
 
 -- List all bases with their location and any intelligence information associated with those bases, including also the bases that do not yet have intelligence information.
 
-SELECT FROM bases
-RIGHT JOIN intel
-ON
-INNER JOIN location
+SELECT Bases.base_id AS BASE, Locations.name AS Location, Intel.details AS Intelligence
+FROM Bases
+LEFT JOIN Locations ON Locations.location_id = Bases.location
+LEFT JOIN Intel ON Intel.base_id = Bases.base_id;
+
+-- Get the information of Rebel teams and the total number of members per team.
+
+SELECT name, SUM(total_force) AS total_of_member FROM RebelTeams
+group by name
+ORDER BY total_of_member DESC;
+
+-- List all weapons and the Imperial teams to which they are assigned, including the weapons that are not yet assigned to any team.
+
+SELECT DISTINCT weapons.name AS Weapon, imperialteams.name AS Imperial_TEAM  FROM weapons
+JOIN imperialteamweapons
+ON imperialteamweapons.weapons_id = weapons.weapon_id
+JOIN imperialteams
+ON imperialteams.team_id = imperialteamweapons.imperialteams_id;
+
+
